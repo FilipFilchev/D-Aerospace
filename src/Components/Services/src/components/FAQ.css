@@ -1,0 +1,159 @@
+.faq-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #080909;
+  width: 100%;
+  height: 100%;
+}
+.faqs,
+.key-questions-answered {
+  position: absolute;
+  display: inline-block;
+}
+.faqs {
+  margin: 0;
+  top: 3.125rem;
+  left: 5.938rem;
+  font-size: 3.188rem;
+  font-weight: 400;
+  font-family: inherit;
+  color: #fbfbfb;
+  width: 9.438rem;
+  height: 3.875rem;
+}
+.key-questions-answered {
+  top: 7.313rem;
+  left: 6.188rem;
+  font-size: 1.625rem;
+  color: #eee;
+  width: 35.875rem;
+  height: 2rem;
+}
+.faq-items,
+.faq-items1,
+.faq-items2,
+.faq-items3,
+.faq-items4 {
+  position: absolute;
+  top: 10.813rem;
+  left: 6.438rem;
+  border-radius: 18px;
+  background-color: #fff;
+  width: 76.188rem;
+  height: 4.563rem;
+}
+.faq-items1,
+.faq-items2,
+.faq-items3,
+.faq-items4 {
+  top: 16.5rem;
+}
+.faq-items2,
+.faq-items3,
+.faq-items4 {
+  top: 22.188rem;
+}
+.faq-items3,
+.faq-items4 {
+  top: 27.875rem;
+}
+.faq-items4 {
+  top: 33.563rem;
+}
+.plus-svgrepo-com-1-icon {
+  position: absolute;
+  top: 12.563rem;
+  left: 79.625rem;
+  width: 1.125rem;
+  height: 1.125rem;
+  overflow: hidden;
+}
+.plus-svgrepo-com-2-icon,
+.plus-svgrepo-com-3-icon,
+.plus-svgrepo-com-4-icon,
+.plus-svgrepo-com-5-icon {
+  position: absolute;
+  top: 18.25rem;
+  left: 79.625rem;
+  width: 1.125rem;
+  height: 1.125rem;
+  overflow: hidden;
+}
+.plus-svgrepo-com-3-icon,
+.plus-svgrepo-com-4-icon,
+.plus-svgrepo-com-5-icon {
+  top: 23.938rem;
+}
+.plus-svgrepo-com-4-icon,
+.plus-svgrepo-com-5-icon {
+  top: 29.625rem;
+}
+.plus-svgrepo-com-5-icon {
+  top: 35.313rem;
+}
+.could-you-outline,
+.how-does-the,
+.what-factors-are,
+.what-is-the,
+.what-types-of {
+  position: absolute;
+  top: 29.5rem;
+  left: 8.563rem;
+  display: inline-block;
+  width: 68.813rem;
+  height: 1.625rem;
+}
+.how-does-the,
+.what-factors-are,
+.what-is-the,
+.what-types-of {
+  top: 35.125rem;
+  height: 4rem;
+}
+.how-does-the,
+.what-factors-are,
+.what-is-the {
+  top: 12.313rem;
+  width: 70.5rem;
+  height: 1.625rem;
+}
+.how-does-the,
+.what-factors-are {
+  top: 17.938rem;
+  width: 68.813rem;
+}
+.what-factors-are {
+  top: 23.625rem;
+}
+.faq {
+  position: absolute;
+  top: 181.125rem;
+  left: 0;
+  width: 100%;
+  height: 42.125rem;
+  text-align: left;
+  font-size: 1.313rem;
+  color: rgba(0, 0, 0, 0.89);
+  font-family: Roboto;
+}
+@media screen and (max-width: 750px) {
+  .faqs {
+    font-size: 2.563rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .faqs {
+    font-size: 1.938rem;
+  }
+  .key-questions-answered {
+    font-size: 1.313rem;
+  }
+  .could-you-outline,
+  .how-does-the,
+  .what-factors-are,
+  .what-is-the,
+  .what-types-of {
+    font-size: 1.063rem;
+  }
+}

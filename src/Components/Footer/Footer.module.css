@@ -1,0 +1,203 @@
+.mainOuter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(1, 0, 1, 1);
+    padding: 60px 15px 60px;
+}
+
+.footInner {
+    display: flex;
+    gap: 100px;
+    width: 70%;
+    justify-content: space-between;
+}
+
+.iconArea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.Icon {
+    width: 221px;
+    height: 194px;
+}
+
+.innerIcons {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    gap: 23px;
+}
+
+.logiIcon {
+    font-size: 25px;
+    color: #F29C37;
+}
+
+.linksArea {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+
+}
+
+
+.linksOuter {
+    display: flex;
+    gap: 16%;
+}
+
+.linksInner {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 110px;
+}
+
+.linksInner1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    width: fit-content;
+}
+
+.pageText {
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 25px;
+    color: #F29C37;
+    margin-bottom: 10px;
+}
+
+.blogText {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 8px;
+    color: rgba(221, 221, 221, 1);
+    margin: 10px 0;
+}
+
+.phoneArea {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.phoneArea1 {
+    display: flex;
+    margin: 10px 0;
+}
+
+
+.phoneIcon {
+    font-size: 20px;
+    color: #F29C37;
+    margin-right: 8px;
+}
+
+.blogText1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(221, 221, 221, 1);
+    max-width: 242px;
+}
+
+
+@media (max-width:1370px) {
+
+    .linksOuter {
+        gap: 7%;
+    }
+
+}
+
+@media (max-width:991px) {
+
+    .linksOuter {
+        gap: 7%;
+    }
+
+    .Icon {
+        width: 160px;
+        height: 140px;
+    }
+
+    .footInner {
+        width: 94%;
+    }
+
+    .pageText {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+    }
+
+    .blogText,
+    .blogText1 {
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width:767px) {
+
+    .linksOuter {
+        gap: 7%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    .Icon {
+        width: 110px;
+        height: 90px;
+    }
+
+    .logiIcon {
+        font-size: 20px;
+    }
+
+    .innerIcons {
+        gap: 13px;
+    }
+
+
+    .linksArea {
+        width: 100%;
+        align-items: center;
+    }
+
+    .footInner {
+        width: 94%;
+    }
+
+    .pageText {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+    }
+
+    .blogText,
+    .blogText1 {
+        font-size: 14px;
+    }
+
+    .footInner {
+        flex-direction: column;
+    }
+
+    .mainOuter {
+        padding: 30px 15px;
+    }
+
+    .footInner {
+        gap: 40px;
+    }
+
+}

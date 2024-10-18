@@ -1,0 +1,545 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+@font-face {
+    font-family: 'Space Age';
+    src: url('../../fonts/space\ age.ttf') format('truetype'); /* Adjust the path and format */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+.productMain {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.solveArea {
+    display: flex;
+    flex-direction: column;
+}
+
+.solveArea1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.soveHeader {
+    background-image: url(../../Assets/solveHeader.png);
+    width: 100%;
+    height: 432px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    padding-left: 7.5%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bgn{
+    margin-top: -12.7rem;
+    margin-left: -158px;
+    height: 70vh;
+}
+
+.bgn2{
+    margin-top: -17.1rem;
+    margin-right: -13.42rem;
+    height: 24.7rem;
+}
+
+
+.soveHeader1 {
+    background-image: url(../../Assets/arieldorne.png);
+    width: 100%;
+    height: 432px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    padding-right: 17%;
+    position: relative;
+    align-items: flex-end;
+    margin-top: 60px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.solveText {
+    font-family: 'Space Age', sans-serif;
+    font-size: 80px;
+    line-height: 114px;
+    padding-bottom: 10px;
+    color: rgba(255, 255, 255, 1);
+    z-index: 1;
+    margin-left: 40px;
+}
+
+.reliText {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    max-width: 460px;
+    color: rgba(255, 255, 255, 1);
+    margin-left: 40px;
+    z-index: 1;
+
+}
+
+.solveText2 {
+    /* static position won't allow z-index use */
+    position: relative;
+    font-family: 'Space Age', sans-serif;
+    font-size: 80px;
+    line-height: 114px;
+    padding-bottom: 10px;
+    color: rgba(255, 255, 255, 1);
+    z-index: 1;
+    margin-right: -93px;
+    text-align: right;
+}
+
+.reliText2 {
+    position: relative;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    max-width: 460px;
+    color: rgba(255, 255, 255, 1);
+    z-index: 1;
+    margin-right: -93px;
+    text-align: right;
+
+}
+
+
+.flyrArea {
+    display: flex;
+    align-items: center;
+    padding-left: 7.5%;
+    margin-top: -70px;
+    z-index: 3;
+}
+
+.flyinner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(28 28 28);
+    width: 178px;
+    height: 161px;
+    border-radius: 30px;
+    justify-content: center;
+    margin-right: 12px;
+}
+
+.fly1 {
+    margin-bottom: -5px;
+    width: auto;
+    height: 52px;
+}
+
+.fly11{
+    margin-top: -2px;
+    margin-bottom: 2px;
+    width: auto;
+    height: 44px;
+}
+
+.fly2{
+    width: auto;
+    height: 2.3rem;
+    margin-top: 5px;
+}
+
+.fly3{
+    width: auto;
+    height: 2.3rem;
+    margin-top: 5px;
+}
+
+.fly4{
+    width: auto;
+    height: 2.3rem;
+    margin-top: 5px;
+}
+
+.maxText {
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.maxText1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+.minutText {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.soldimensions {
+    margin-top: 150px;
+    width: 100%;
+    height: 220px;
+    margin-left: 170px;
+    margin-top: 1px;
+}
+
+.soldimensions2 {
+    width: 100%;
+    max-width: 800px;
+    height: 350px;
+    margin-left: 190px;
+    margin-right: auto;
+
+    
+}
+
+.drone0{
+    position: absolute;
+    top: 2rem;
+    left: 39.5rem;
+    width: auto;
+    height: 400px;
+}
+
+.drone1 {
+    position: absolute;
+    top: -2rem;
+    left: 32rem;
+    width: auto;
+    height: 500px;
+}
+
+.drone2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: 447px;
+}
+
+.flyrArea1 {
+    display: flex;
+    align-items: center;
+    padding-right: 7.5%;
+    justify-content: flex-end;
+    margin-top: -70px;
+    z-index: 3;
+    position: relative;
+}
+
+
+
+
+
+@media (max-width:1370px) {
+
+    .solveText {
+        font-style: 'Montserrat', sans-serif;
+        font-size: 65px;
+        line-height: 75px;
+    }
+
+    .reliText {
+        font-style: 'Montserrat', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 26px;
+        max-width: 460px;
+        
+    }
+
+    .soveHeader {
+        padding-top: 40px;
+        padding-left: 4.5%;
+        height: 396px;
+    }
+
+    .soveHeader1 {
+        padding-top: 40px;
+        height: 396px;
+    }
+
+    /* .fly1 {
+        width: 26px;
+        height: 36px;
+
+    } */
+
+    .maxText,
+    .maxText1 {
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 16px;
+    }
+
+    .minutText {
+        font-size: 10px;
+    }
+
+    /* .fly2 {
+        width: 36px;
+        height: 26px;
+    } */
+
+    .flyinner {
+        width: 150px;
+        height: 128px;
+        border-radius: 26px;
+    }
+
+    .flyrArea,
+    .flyrArea1 {
+        margin-top: -53px;
+    }
+
+    .soldimensions {
+        width: 800px;
+        height: 270px;
+        margin-top: 1px;
+        margin-left: 230px;
+    }
+
+
+}
+
+
+@media (max-width:1150px) {
+
+    .solveText {
+        font-size: 50px;
+        line-height: 55px;
+    }
+
+    .reliText {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 32px;
+        max-width: 441px;
+    }
+
+    .soveHeader {
+        padding-top: 40px;
+        padding-left: 4.5%;
+        height: 326px;
+    }
+
+    .soveHeader1 {
+        padding-top: 40px;
+        height: 326px;
+    }
+
+
+/* 
+    .fly1 {
+        width: 22px;
+        height: 26px;
+
+    } */
+
+    .maxText,
+    .maxText1 {
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 16px;
+    }
+
+    .minutText {
+        font-size: 10px;
+    }
+/* 
+    .fly2 {
+        width: 26px;
+        height: 18px;
+    } */
+
+    .flyinner {
+        width: 125px;
+        height: 107px;
+        border-radius: 26px;
+    }
+
+    .flyrArea {
+        margin-top: -53px;
+        padding-left: 4.5%;
+    }
+
+    .soldimensions {
+        max-width: 800px;
+        height: 310px;
+        margin-top: 62px;
+    }
+
+
+}
+
+
+@media (max-width:991px) {
+
+    .solveText {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .reliText {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        max-width: 385px;
+    }
+
+    .soveHeader,
+    .soveHeader1 {
+        padding-top: 30px;
+        padding-left: 4%;
+        height: 273px;
+    }
+
+/* 
+    .fly1 {
+        width: 22px;
+        height: 26px;
+
+    } */
+
+    .maxText,
+    .maxText1 {
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 16px;
+    }
+
+    .minutText {
+        font-size: 10px;
+    }
+
+    /* .fly2 {
+        width: 26px;
+        height: 18px;
+    } */
+
+    .flyinner {
+        width: 125px;
+        height: 107px;
+        border-radius: 26px;
+    }
+
+    .flyrArea,
+    .flyrArea1 {
+        margin-top: 60px;
+        padding-left: 0;
+        justify-content: center;
+    }
+
+    .soldimensions {
+        max-width: 696px;
+        height: 275px;
+        margin-top: 62px;
+    }
+
+    .productMain {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .soveHeader1 {
+        padding-right: 10%;
+    }
+
+
+}
+
+
+@media (max-width:767px) {
+
+    .solveText {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .reliText {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        max-width: unset;
+    }
+
+    .soveHeader {
+        padding-top: 30px;
+        padding-left: 4%;
+        height: 273px;
+    }
+
+    /* .drone1,
+    .drone2 {
+        width: 200px;
+        height: 210px;
+        top: 128px;
+        right: 0;
+        left: unset;
+    } */
+
+    /* .fly1 {
+        width: 22px;
+        height: 26px;
+
+    } */
+
+    .maxText,
+    .maxText1 {
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 16px;
+    }
+
+    .minutText {
+        font-size: 10px;
+    }
+/* 
+    .fly2 {
+        width: 26px;
+        height: 18px;
+    } */
+
+    .flyinner {
+        width: 125px;
+        height: 107px;
+        border-radius: 26px;
+        margin-top: 10px;
+    }
+
+    .flyrArea,
+    .flyrArea1 {
+        margin-top: 60px;
+        padding-left: 0;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 70px;
+    }
+
+    .soldimensions {
+        max-width: 300px;
+        height: 180px;
+        margin-top: 40px;
+
+    }
+
+    .productMain {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}

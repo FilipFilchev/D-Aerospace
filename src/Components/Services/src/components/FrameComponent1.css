@@ -1,0 +1,55 @@
+.frame-child116 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 30.68px;
+  background-color: #010001;
+  width: 11.169rem;
+  height: 10.069rem;
+  display: none;
+}
+.vector-icon7 {
+  position: absolute;
+  top: 0.813rem;
+  left: 3.169rem;
+  width: 5.188rem;
+  height: 3.25rem;
+  display: none;
+}
+.group-icon6 {
+  position: absolute;
+  top: 1.438rem;
+  left: 4.481rem;
+  width: 2.756rem;
+  height: 3.6rem;
+  z-index: 1;
+}
+.flight-controller2,
+.smart3 {
+  position: absolute;
+  top: 5.438rem;
+  left: 1.856rem;
+  line-height: 187%;
+  font-weight: 800;
+  z-index: 1;
+}
+.smart3 {
+  top: 7.188rem;
+  left: 4.544rem;
+  font-size: 0.775rem;
+  font-weight: 500;
+}
+.rectangle-parent31 {
+  position: absolute;
+  top: 208.25rem;
+  left: 99.456rem;
+  border-radius: 30.68px;
+  background-color: #010001;
+  width: 11.169rem;
+  height: 10.069rem;
+  z-index: 5;
+  text-align: left;
+  font-size: 0.925rem;
+  color: #fff;
+  font-family: Raleway;
+}

@@ -1,0 +1,65 @@
+.frame-child115 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 30.68px;
+  background-color: #010001;
+  width: 11.169rem;
+  height: 10.069rem;
+  display: none;
+}
+.group-icon5,
+.vector-icon6 {
+  position: absolute;
+  height: 2.563rem;
+}
+.group-icon5 {
+  top: 1.313rem;
+  left: 4.419rem;
+  width: 2.281rem;
+  z-index: 1;
+}
+.vector-icon6 {
+  top: 5rem;
+  left: 4.463rem;
+  width: 2.188rem;
+  display: none;
+}
+.max-payload1 {
+  margin: 0;
+}
+.kg3,
+.max-payload-capability-container1 {
+  position: absolute;
+  line-height: 187%;
+  z-index: 1;
+}
+.max-payload-capability-container1 {
+  top: 4.125rem;
+  left: 2.806rem;
+  font-weight: 800;
+  display: inline-block;
+  width: 5.5rem;
+  height: 3rem;
+}
+.kg3 {
+  top: 7.375rem;
+  left: 4.369rem;
+  font-size: 0.775rem;
+  font-weight: 500;
+  text-align: left;
+}
+.rectangle-parent30 {
+  position: absolute;
+  top: 130.063rem;
+  left: 41.363rem;
+  border-radius: 30.68px;
+  background-color: #010001;
+  width: 11.169rem;
+  height: 10.069rem;
+  z-index: 5;
+  text-align: center;
+  font-size: 0.863rem;
+  color: #fff;
+  font-family: Raleway;
+}

@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.main {
+    display: flex;
+    flex-direction: column;
+    background: #000000;
+    padding: 120px 0;
+    position: relative;
+    margin-top: 100px;
+}
+
+.textArea {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.recordText {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 49px;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.moreText {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #747474;
+    text-align: center;
+    max-width: 914px;
+    margin-top: 10px;
+}
+
+.laptopImg {
+    width: 752px;
+    height: 471px;
+}
+
+.lapTop {
+    width: 967px;
+    height: 554px;
+}
+
+.slidInner {
+    display: flex;
+    justify-content: center;
+}
+
+.mySwiper {
+    max-width: 100% !important;
+    overflow: hidden !important;
+    position: absolute !important;
+    top: 155px;
+    width: 100%;
+}
+
+
+@media (max-width:1670px) {
+
+    .laptopImg {
+        width: 600px;
+        height: 400px;
+    }
+
+    .lapTop {
+        width: 791px;
+        height: 471px;
+    }
+
+
+}
+
+
+@media (max-width:1370px) {
+
+    .laptopImg {
+        width: 450px;
+        height: 300px;
+    }
+
+    .lapTop {
+        width: 609px;
+        height: 351px;
+    }
+
+
+    .mySwiper {
+        top: 103px;
+    }
+
+    .main {
+        padding-top: 80px;
+    }
+
+
+    .recordText {
+        font-size: 33px;
+        font-weight: 400;
+        line-height: 39px;
+    }
+
+    .textArea {
+        margin-top: 60px;
+    }
+
+    .moreText {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 23px;
+        max-width: 733px;
+    }
+
+}
+
+@media (max-width:992px) {
+
+    .laptopImg {
+        width: 300px;
+        height: 200px;
+    }
+
+    .lapTop {
+        width: 400px;
+        height: 235px;
+    }
+
+
+    .mySwiper {
+        top: 76px;
+    }
+
+    .main {
+        padding-top: 60px;
+    }
+
+
+    .recordText {
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 33px;
+    }
+
+    .textArea {
+        margin-top: 40px;
+    }
+
+    .moreText {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        max-width: 733px;
+    }
+
+
+
+}
+
+@media (max-width:767px) {
+
+    .laptopImg {
+        width: 200px;
+        height: 150px;
+    }
+
+    .lapTop {
+        width: 276px;
+        height: 175px;
+    }
+
+
+    .mySwiper {
+        top: 52px;
+    }
+
+    .main {
+        padding-top: 40px;
+        margin-top: 40px;
+    }
+
+
+
+
+
+    .recordText {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 25px;
+        text-align: center;
+    }
+
+    .textArea {
+        margin-top: 40px;
+    }
+
+    .moreText {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        max-width: 733px;
+    }
+
+
+    .textArea {
+        padding: 0 15px;
+    }
+
+}
+
+@media (max-width:450px) {
+
+    .laptopImg {
+        width: 170px;
+        height: 120px;
+    }
+
+    .lapTop {
+        width: 231px;
+        height: 141px;
+    }
+
+
+    .mySwiper {
+        top: 48px;
+    }
+
+    .main {
+        padding-top: 40px;
+        margin-top: 40px;
+    }
+
+
+}

@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.pixOuter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(0, 0, 0, 1);
+    padding: 50px 15px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.pixInner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1115px;
+    margin-bottom: 40px;
+    opacity: 0;
+}
+
+.pixInner1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1172px;
+    margin-bottom: 40px;
+    opacity: 0;
+}
+
+
+
+.animate {
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    opacity: 1;
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+.pixInner {
+    animation: slideInLeft 1s ease-out;
+}
+
+.pixInner1 {
+    animation: slideInRight 1s ease-out;
+}
+
+
+
+
+.drone1 {
+    width: 382px;
+    height: 371px;
+}
+
+.textArea {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    max-width: 484px;
+
+}
+
+.pixtext {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 10px;
+}
+
+.cusText {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.drone2 {
+    width: 505px;
+    height: 514px;
+}
+
+.drone22{
+    width: 827px;
+    margin: -200px;
+    height: auto;
+}
+
+.featureArea {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.featuremian {
+    display: flex;
+
+}
+
+.dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    margin: 9px 10px 10px 10px;
+    background: white;
+}
+
+.dot_fail {
+    width: 12px;
+    height: 5px;
+    border-radius: 50%;
+    margin: 10px 10px 10px 10px;
+    background: white;
+}
+
+.dot_fail2 {
+    width: 10px;
+    height: 5px;
+    border-radius: 50%;
+    margin: 10px 10px 10px 10px;
+    background: white;
+}
+
+.dot_fail3{
+    width: 7px;
+    height: 5px;
+    border-radius: 50%;
+    margin: 9px 10px 10px 10px;
+    background: white;
+}
+
+
+@media (max-width:1370px) {
+
+    .drone1 {
+        width: 300px;
+        height: 280px;
+    }
+
+    .pixtext {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 35px;
+    }
+
+    .cusText {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 22px;
+    }
+
+
+    .textArea {
+        max-width: 422px;
+    }
+
+    .pixInner,
+    .pixInner1 {
+        max-width: 950px;
+        margin-bottom: 30px;
+    }
+
+
+
+
+    .drone2 {
+        width: 405px;
+        height: 400px;
+    }
+
+
+}
+
+
+@media (max-width:992px) {
+
+    .drone1 {
+        width: 270px;
+        height: 250px;
+    }
+
+    .pixtext {
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 28px;
+    }
+
+    .cusText {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+    }
+
+
+    .textArea {
+        max-width: 344px;
+    }
+
+    .pixInner {
+        max-width: 793px;
+    }
+
+    .pixInner1 {
+        max-width: 793px;
+    }
+
+    .drone2 {
+        width: 320px;
+        height: 304px;
+    }
+
+
+}
+
+@media (max-width:767px) {
+
+    .pixOuter {
+        padding: 30px 15px;
+    }
+
+    .pixInner {
+        flex-direction: column-reverse;
+    }
+
+
+    .pixInner1 {
+        flex-direction: column;
+    }
+
+    .drone1 {
+        width: 230px;
+        height: 230px;
+        margin-top: 15px;
+    }
+
+    .pixtext {
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 33px;
+    }
+
+    .cusText {
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+
+    .textArea {
+        max-width: unset;
+    }
+
+    .drone2 {
+        width: 230px;
+        height: 230px;
+        margin-top: 15px;
+    }
+
+
+}

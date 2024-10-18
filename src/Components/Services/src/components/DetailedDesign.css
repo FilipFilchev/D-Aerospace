@@ -1,0 +1,135 @@
+.detaileddesign-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 66px;
+  width: 100%;
+  height: 100%;
+}
+.m31-1-icon {
+  position: absolute;
+  top: 21.131rem;
+  left: 14.938rem;
+  width: 12.438rem;
+  height: 12.438rem;
+  object-fit: cover;
+}
+.detailed-design,
+.heading-13 {
+  position: absolute;
+  left: 0.625rem;
+}
+.heading-13 {
+  width: calc(100% - 20px);
+  top: 4.056rem;
+  right: 0.625rem;
+  height: 3.125rem;
+}
+.detailed-design {
+  margin: 0;
+  width: calc(100% - 22px);
+  top: 3.375rem;
+  font-size: inherit;
+  line-height: 3.125rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  height: 3.813rem;
+}
+.during-detailed-design {
+  margin: 0;
+}
+.during-detailed-design-container1 {
+  width: 100%;
+}
+.during-detailed-design-container {
+  position: absolute;
+  top: -1.25rem;
+  left: -0.312rem;
+  line-height: 1.5rem;
+  display: flex;
+  align-items: center;
+  width: 23.875rem;
+  height: 7.188rem;
+}
+.pelementor-image-box-descript3 {
+  position: absolute;
+  width: calc(100% - 20px);
+  top: 11.938rem;
+  right: 0;
+  left: 1.25rem;
+  height: 7.5rem;
+  font-size: 1.125rem;
+}
+.divelementor-widget-wrap4 {
+  position: absolute;
+  height: calc(100% - 297px);
+  width: calc(100% - 75px);
+  top: 0;
+  right: 2.625rem;
+  bottom: 18.563rem;
+  left: 2.063rem;
+}
+.learn-more12 {
+  position: absolute;
+  top: 1.125rem;
+  left: calc(50% - 49.7px);
+  font-size: 0.75rem;
+  letter-spacing: 2px;
+  line-height: 0.75rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: Roboto;
+  color: #151515;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 6.238rem;
+  height: 0.75rem;
+  min-width: 6.238rem;
+}
+.button5 {
+  cursor: pointer;
+  border: 2px solid #f1f7f8;
+  padding: 0;
+  background-color: #fff;
+  position: absolute;
+  top: 22rem;
+  left: 3rem;
+  border-radius: 35px;
+  box-sizing: border-box;
+  width: 11.463rem;
+  height: 3rem;
+  white-space: nowrap;
+}
+.button5:hover {
+  background-color: #e6e6e6;
+  border: 2px solid #d9dede;
+  box-sizing: border-box;
+}
+.detaileddesign {
+  position: absolute;
+  top: 137.813rem;
+  left: 9.563rem;
+  width: 32.625rem;
+  height: 38.813rem;
+  text-align: left;
+  font-size: 3.125rem;
+  color: #fff;
+  font-family: Montserrat;
+}
+@media screen and (max-width: 750px) {
+  .detailed-design {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .detailed-design {
+    font-size: 1.875rem;
+    line-height: 1.875rem;
+  }
+}

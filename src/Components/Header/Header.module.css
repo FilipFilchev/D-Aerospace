@@ -1,0 +1,877 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+
+@font-face {
+  font-family: 'Space Age';
+  src: url('../../fonts/space\ age.ttf') format('truetype'); /* Adjust the path and format */
+  font-weight: normal;
+  font-style: normal;
+}
+
+.headerBack {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-items: center;
+}
+
+.droneArea {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: fit-content;
+}
+
+.aurArea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aurText {
+    font-family: 'Space Age', sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 100px;
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.viewButton {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    background: rgba(227, 94, 50, 1);
+    width: 153px;
+    height: 42px;
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 42px;
+}
+
+.droneInner {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 680px; /* Ensure this is wide enough */
+    height: 550px; /* Ensure this is tall enough */
+    margin: auto; /* Center it to make sure it's within the viewport */
+    overflow: visible; /* Ensure no parts of the SVGs are clipped */
+}
+
+/* .mainDron {
+    width: 100%;
+    height: 100%;
+} */
+
+.buyArea {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 20px;
+    margin-top: 50px;
+}
+
+.buyInner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 310px;
+    height: 232px;
+    background: #1f1f1f;
+    padding-top: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.buyInner:hover .learnText {
+    display: block; /* Example of showing an element on hover */
+  }
+
+.buy1 {
+    width: 5rem;
+    height: 6rem;
+}
+
+.buyText {
+    font-family: 'Koulen', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 39px;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 30px;
+}
+
+.buyText2 {
+    font-family: 'Koulen', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 0px;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 25px;
+}
+
+.learnText {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 8px;
+    text-decoration: underline;
+}
+
+.buy2 {
+    width: 8rem;
+}
+
+.buy3{
+    width: 8rem;
+}
+
+.sidebar {
+    width: 24px;
+    height: 558px;
+    right: -35%;
+    margin-top: 40px;
+    position: absolute;
+}
+
+
+.flightArea {
+    display: flex;
+    position: absolute;
+    left: -89px;
+    top: 12px;
+    align-items: center;
+}
+
+.plane {
+    width: 36px;
+    height: 36px;
+    margin-right: 10px;
+}
+
+.flighttext {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+}
+
+.meter {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+}
+
+.flightArea1 {
+    display: flex;
+    position: absolute;
+    left: -95px;
+    top: 214px;
+    align-items: center;
+}
+
+.battery {
+    width: 17px;
+    height: 28px;
+    margin-right: 10px;
+}
+
+.base {
+    width: 41px;
+    height: 41px;
+    margin-right: 10px;
+}
+
+.flightArea2 {
+    display: flex;
+    position: absolute;
+    left: -23px;
+    top: 361px;
+    align-items: center;
+}
+
+.flightArea3 {
+    display: flex;
+    position: absolute;
+    right: -28px;
+    top: 0;
+    align-items: center;
+}
+
+.max {
+    width: 41px;
+    height: 41px;
+    margin-right: 10px;
+}
+
+.flightArea4 {
+    display: flex;
+    position: absolute;
+    right: -166px;
+    top: 456px;
+    align-items: center;
+}
+
+
+.dot1 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    /* background-color: red; */
+    left: 59px;
+    top: 26px;
+    border-radius: 50%;
+
+}
+
+.dot2 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    /* background-color: red; */
+    left: 9px;
+    top: 220px;
+    border-radius: 50%;
+}
+
+.dot3 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    /* background-color: red; */
+    left: 97px;
+    top: 369px;
+
+    border-radius: 50%;
+
+}
+
+.dot4 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    /* background-color: red; */
+    right: 162px;
+    top: 6px;
+    border-radius: 50%;
+
+}
+
+.dot5 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    /* background-color: red; */
+    right: 35px;
+    top: 464px;
+    border-radius: 50%;
+
+}
+
+
+@media (max-width:1370px) {
+
+    .headerBack {
+        padding-top: 20px;
+    }
+
+
+    .aurText {
+        font-size: 45px;
+        font-weight: 900;
+        line-height: 50px;
+
+    }
+
+
+    .viewButton {
+        font-size: 12px;
+        width: 120px;
+        height: 35px;
+        line-height: 16px;
+        margin-top: 5px;
+    }
+
+
+    .droneInner {
+        width: 480px;
+        height: 420px;
+    }
+
+
+
+    .flightArea {
+        top: 8px;
+        left: -116px;
+    }
+
+
+    .flightArea1 {
+        left: -90px;
+        top: 159px;
+    }
+
+    .flightArea2 {
+        left: -46px;
+        top: 272px;
+    }
+
+    .flightArea3 {
+        right: -52px;
+        top: -12px;
+    }
+
+    .flightArea4 {
+        right: -162px;
+        top: 343px;
+    }
+
+    .sidebar {
+        height: 362px;
+        right: -47%;
+    }
+
+    .dot1 {
+        width: 15px;
+        height: 15px;
+        left: 40px;
+        top: 20px;
+    }
+
+    .dot2 {
+        width: 15px;
+        height: 15px;
+        left: 6px;
+        top: 168px;
+    }
+
+    .dot3 {
+        width: 15px;
+        height: 15px;
+        left: 69px;
+        top: 282px;
+    }
+
+
+    .dot4 {
+        width: 15px;
+        height: 15px;
+        right: 114px;
+        top: 4px;
+    }
+
+
+    .dot5 {
+        width: 15px;
+        height: 15px;
+        right: 23px;
+        top: 355px;
+    }
+
+
+
+
+
+
+
+
+    .buy1 {
+        width: 85px;
+        height: 75px;
+    }
+
+    .buyText {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 25px;
+    }
+
+    .learnText {
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 16px;
+    }
+
+    .buy2 {
+        width: 8rem;
+        height: auto;
+        margin-top: -1rem;
+    }
+
+    .buyInner {
+        width: 257px;
+        height: 200px;
+    }
+
+    .buyArea {
+        margin-top: 10px;
+    }
+
+}
+
+
+@media (max-width:1150px) {
+
+    .aurText {
+        font-family: 'Space Age';
+        font-size: 37px;
+        font-weight: 900;
+        line-height: 42px;
+
+    }
+
+
+    .viewButton {
+        font-size: 11px;
+        width: 110px;
+        height: 35px;
+        line-height: 12px;
+    }
+
+
+    .droneInner {
+        width: 380px;
+        height: 340px;
+    }
+
+
+
+    .flightArea {
+        top: 7px;
+        left: -112px;
+    }
+
+
+    .flightArea1 {
+        left: -81px;
+        top: 128px;
+    }
+
+    .flightArea2 {
+        left: -50px;
+        top: 217px;
+    }
+
+    .flightArea3 {
+        right: -76px;
+        top: -10px;
+    }
+
+    .flightArea4 {
+        right: -154px;
+        top: 271px
+    }
+
+    .sidebar {
+        height: 300px;
+        right: -43%;
+    }
+
+    .dot1 {
+        left: 32px;
+        top: 16px;
+        width: 15px;
+        height: 15px;
+    }
+
+    .dot2 {
+        width: 15px;
+        height: 15px;
+        left: 4px;
+        top: 135px;
+
+    }
+
+    .dot3 {
+        width: 15px;
+        height: 15px;
+        left: 54px;
+        top: 227px;
+    }
+
+
+    .dot4 {
+        width: 15px;
+        height: 15px;
+        right: 89px;
+        top: 4px;
+
+    }
+
+
+    .dot5 {
+        width: 15px;
+        height: 15px;
+        right: 17px;
+        top: 287px;
+    }
+
+}
+
+@media (max-width:992px) {
+
+    .aurText {
+        font-size: 32px;
+        font-weight: 900;
+        line-height: 38px;
+
+    }
+
+
+    .viewButton {
+        font-size: 10px;
+        width: 100px;
+        height: 35px;
+        margin-top: 10px;
+    }
+
+
+    .droneInner {
+        width: 310px;
+        height: 280px;
+        margin-top: 20px;
+    }
+
+    .plane {
+        width: 20px;
+        height: 20px;
+        margin-right: 8px;
+    }
+
+    .flighttext {
+        font-size: 10px;
+        font-weight: 800;
+        line-height: 12px;
+    }
+
+    .meter {
+        font-size: 8px;
+        line-height: 10px;
+    }
+
+    .battery {
+        width: 11px;
+        height: 17px;
+        margin-right: 8px;
+    }
+
+    .base,
+    .max {
+        width: 20px;
+        height: 20px;
+        margin-right: 8px;
+    }
+
+    .flightArea {
+        top: 7px;
+        left: -82px;
+    }
+
+
+    .flightArea1 {
+        left: -68px;
+        top: 107px;
+    }
+
+    .flightArea2 {
+        left: -32px;
+        top: 185px;
+    }
+
+    .flightArea3 {
+        right: -48px;
+        top: -6px;
+    }
+
+    .flightArea4 {
+        right: -112px;
+        top: 229px;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .dot1 {
+        left: 26px;
+        top: 13px;
+        width: 10px;
+        height: 10px;
+    }
+
+    .dot2 {
+        width: 10px;
+        height: 10px;
+        left: 4px;
+        top: 112px;
+    }
+
+    .dot3 {
+        width: 10px;
+        height: 10px;
+        left: 45px;
+        top: 188px;
+    }
+
+
+    .dot4 {
+        width: 10px;
+        height: 10px;
+        right: 73px;
+        top: 3px;
+    }
+
+
+    .dot5 {
+        width: 10px;
+        height: 10px;
+        right: 15px;
+        top: 237px
+    }
+
+
+
+
+
+
+
+
+
+
+    .buy1 {
+        width: 70px;
+        height: 60px;
+    }
+
+    .buyText {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 23px;
+    }
+
+    .learnText {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 25px;
+    }
+
+    .buy2 {
+        width: 55px;
+        height: 55px;
+    }
+
+    .buyInner {
+        width: 200px;
+        height: 200px;
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+
+
+}
+
+
+@media (max-width:767px) {
+
+    .aurText {
+        font-size: 30px;
+        font-weight: 900;
+        line-height: 35px;
+
+    }
+
+
+    .viewButton {
+        font-size: 10px;
+        width: 110px;
+        height: 35px;
+        margin-top: 15px;
+    }
+
+
+    .droneInner {
+        width: 200px;
+        height: 180px;
+        margin-top: 20px;
+    }
+
+    .plane {
+        width: 20px;
+        height: 20px;
+        margin-right: 6px;
+    }
+
+    .flighttext {
+        font-size: 9px;
+        font-weight: 800;
+        line-height: 12px;
+    }
+
+    .meter {
+        font-size: 7px;
+        line-height: 12px;
+    }
+
+    .battery {
+        width: 10px;
+        height: 16px;
+        margin-right: 6px;
+
+    }
+
+    .base,
+    .max {
+        width: 20px;
+        height: 20px;
+        margin-right: 6px;
+    }
+
+    .flightArea {
+        top: 2px;
+        left: -79px;
+    }
+
+
+    .flightArea1 {
+        left: -52px;
+        top: 64px;
+    }
+
+    .flightArea2 {
+        left: -32px;
+        top: 114px;
+    }
+
+    .flightArea3 {
+        right: -55px;
+        top: -6px;
+    }
+
+    .flightArea4 {
+        right: -78px;
+        top: 119px;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .dot1 {
+        left: 17px;
+        top: 7px;
+        width: 12px;
+        height: 12px;
+    }
+
+    .dot2 {
+        width: 12px;
+        height: 12px;
+        left: 2px;
+        top: 70px;
+    }
+
+    .dot3 {
+        width: 12px;
+        height: 12px;
+        left: 28px;
+        top: 118px;
+    }
+
+
+    .dot4 {
+        width: 12px;
+        height: 12px;
+        right: 47px;
+        top: 2px;
+    }
+
+
+    .dot5 {
+        width: 12px;
+        height: 12px;
+        right: 10px;
+        top: 150px;
+
+    }
+
+
+
+
+
+
+
+    .buy1 {
+        width: 55px;
+        height: 50px;
+    }
+
+    .buyText {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+        margin-top: 10px;
+    }
+
+    .learnText {
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 17px;
+        margin-top: 6px;
+    }
+
+    .buy2 {
+        width: 45px;
+        height: 45px;
+    }
+
+    .buyInner {
+        width: 160px;
+        height: 126px;
+        border-radius: 22px;
+    }
+
+
+    .headerBack {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+}
+
+@media (max-width:450px) {
+
+    .buyArea {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+}
+
+.mainDron {
+    width: 120%;
+    height: 120%;
+    transform: scaleX(-1) rotateZ(-6deg); 
+    margin-left: -110px;
+  }
+  
+
+  .readyDrone{
+    width: 48rem;
+    height: auto;
+    margin-left: -125px;
+  }

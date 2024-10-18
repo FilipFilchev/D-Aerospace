@@ -1,0 +1,146 @@
+.navsection-item {
+  height: 6.063rem;
+  width: 90.063rem;
+  position: relative;
+  background-color: rgba(1, 0, 1, 0.94);
+  display: none;
+  max-width: 100%;
+}
+.cropped-d-aerospace-logo-103x9-icon5 {
+  height: 4.031rem;
+  width: 4.569rem;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.link-wrapper-formselect {
+  box-shadow: -3px -4px 21px rgba(0, 0, 0, 0.01) inset;
+  font-family: Montserrat;
+  font-size: 1rem;
+  color: #000;
+  z-index: 1;
+}
+.link-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0.312rem 0 0;
+}
+.products6 {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  min-width: 4.625rem;
+}
+.products-services-labels {
+  position: absolute;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(40px);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0.437rem 0.937rem 0.437rem 1rem;
+  z-index: 1;
+}
+.services4 {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  min-width: 4.188rem;
+}
+.products-services-labels1 {
+  position: absolute;
+  top: 0;
+  left: 7.188rem;
+  box-shadow: -3px -4px 21px rgba(0, 0, 0, 0.01) inset;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0.437rem 0.937rem 0.437rem 1rem;
+  z-index: 1;
+}
+.products-services {
+  height: 2.125rem;
+  flex: 1;
+  position: relative;
+}
+.resource-library2 {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+}
+.resource-label {
+  box-shadow: -3px -4px 21px rgba(0, 0, 0, 0.01) inset;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0.437rem 0.937rem 0.437rem 1rem;
+  z-index: 1;
+}
+.span4 {
+  font-family: Roboto;
+}
+.contact5,
+.links {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contact5 {
+  box-shadow: -3px -4px 21px rgba(0, 0, 0, 0.01) inset;
+  border-radius: 20px;
+  background-color: #f39c37;
+  padding: 0.406rem 0.875rem;
+  z-index: 1;
+  color: #050505;
+}
+.links {
+  align-self: stretch;
+  gap: 0.312rem;
+}
+.nav-links,
+.navsection1 {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.nav-links {
+  width: 43.694rem;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 0.906rem;
+}
+.navsection1 {
+  align-self: stretch;
+  background-color: rgba(1, 0, 1, 0.94);
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 1rem 2.062rem 1.031rem 3.937rem;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  gap: 1.25rem;
+  text-align: left;
+  font-size: 1rem;
+  color: #ddd;
+  font-family: Montserrat;
+}
+@media screen and (max-width: 750px) {
+  .navsection1 {
+    padding-left: 1.938rem;
+    box-sizing: border-box;
+  }
+}

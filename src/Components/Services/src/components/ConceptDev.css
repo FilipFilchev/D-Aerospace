@@ -1,0 +1,128 @@
+.conceptdev-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 66px;
+  width: 100%;
+  height: 100%;
+}
+.heading-1 {
+  position: absolute;
+  width: calc(100% - 20px);
+  top: 4.056rem;
+  right: 0.625rem;
+  left: 0.625rem;
+  height: 3.125rem;
+}
+.concept-development,
+.the-development-of {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+.concept-development {
+  margin: 0;
+  top: 3.375rem;
+  left: 0.625rem;
+  font-size: inherit;
+  line-height: 3.125rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: inherit;
+  width: 22.813rem;
+  height: 3.813rem;
+}
+.the-development-of {
+  top: -1.25rem;
+  left: -0.312rem;
+  line-height: 1.5rem;
+  width: 24rem;
+  height: 13.875rem;
+}
+.pelementor-image-box-descript {
+  position: absolute;
+  width: calc(100% - 20px);
+  top: 11.938rem;
+  right: 0;
+  left: 1.25rem;
+  height: 7.5rem;
+  font-size: 1.125rem;
+}
+.divelementor-widget-wrap1 {
+  position: absolute;
+  height: calc(100% - 297px);
+  width: calc(100% - 33px);
+  top: 0;
+  right: 0;
+  bottom: 18.563rem;
+  left: 2.063rem;
+}
+.m1-1-icon {
+  position: absolute;
+  top: 25.563rem;
+  left: 19.063rem;
+  width: 10.938rem;
+  height: 10.938rem;
+  object-fit: cover;
+}
+.learn-more9 {
+  position: absolute;
+  top: 1.125rem;
+  left: calc(50% - 49.7px);
+  font-size: 0.75rem;
+  letter-spacing: 2px;
+  line-height: 0.75rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: Roboto;
+  color: #151515;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 6.238rem;
+  height: 0.75rem;
+  min-width: 6.238rem;
+}
+.button2 {
+  cursor: pointer;
+  border: 2px solid #f1f7f8;
+  padding: 0;
+  background-color: #fff;
+  position: absolute;
+  top: 27.375rem;
+  left: 2.688rem;
+  border-radius: 35px;
+  box-sizing: border-box;
+  width: 11.463rem;
+  height: 3rem;
+  white-space: nowrap;
+}
+.button2:hover {
+  background-color: #e6e6e6;
+  border: 2px solid #d9dede;
+  box-sizing: border-box;
+}
+.conceptdev {
+  position: absolute;
+  top: 61.813rem;
+  left: 8.875rem;
+  width: 32.625rem;
+  height: 38.813rem;
+  text-align: left;
+  font-size: 3.125rem;
+  color: #fff;
+  font-family: Montserrat;
+}
+@media screen and (max-width: 750px) {
+  .concept-development {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .concept-development {
+    font-size: 1.875rem;
+    line-height: 1.875rem;
+  }
+}

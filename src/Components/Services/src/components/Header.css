@@ -1,0 +1,138 @@
+.main-article {
+  margin: 0;
+  position: absolute;
+  top: 4.5rem;
+  left: calc(50% - 243px);
+  font-size: inherit;
+  letter-spacing: 2.5px;
+  line-height: 3.125rem;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30.375rem;
+  height: 6.5rem;
+}
+.bc470-7be3-4c55-bba1-c378d0700 {
+  position: absolute;
+  top: calc(50% - 409px);
+  left: calc(50% - 720px);
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-image: url(../../public/524bc4707be34c55bba1c378d0700119png@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  opacity: 0.88;
+  font-family: "Space Age";
+}
+.ask-us-well {
+  position: absolute;
+  top: 1.125rem;
+  left: calc(50% - 94.95px);
+  letter-spacing: 2px;
+  line-height: 0.75rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 11.894rem;
+  height: 0.75rem;
+}
+.button1 {
+  position: absolute;
+  top: 1.875rem;
+  left: 0.4rem;
+  background-color: #fff;
+  border: 2px solid #f1f7f8;
+  box-sizing: border-box;
+  width: 17.119rem;
+  height: 3rem;
+  white-space: nowrap;
+}
+.divelementor-element {
+  position: absolute;
+  width: calc(100% - 924.7px);
+  top: calc(50% + 257px);
+  right: 21.869rem;
+  left: 35.925rem;
+  height: 4.875rem;
+  font-size: 0.75rem;
+  color: #1d1d1d;
+}
+.we-make-things {
+  margin: 0;
+}
+.heading-1-container1 {
+  width: 100%;
+}
+.heading-1-container {
+  margin: 0;
+  position: absolute;
+  top: 0.75rem;
+  left: 0;
+  font-size: inherit;
+  line-height: 3.125rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  width: 26.675rem;
+  height: 6.25rem;
+}
+.divelementor-image-box-conten {
+  position: absolute;
+  width: calc(100% - 47.3px);
+  top: 0;
+  right: 4.6rem;
+  left: -1.644rem;
+  height: 33rem;
+}
+.divelementor-widget-wrap {
+  position: absolute;
+  height: calc(100% - 659px);
+  width: calc(100% - 1144.7px);
+  top: 32rem;
+  right: 61.819rem;
+  bottom: 9.188rem;
+  left: 9.725rem;
+  text-align: left;
+  font-size: 2.75rem;
+  color: rgba(255, 255, 255, 0.75);
+}
+.header1 {
+  position: absolute;
+  top: calc(50% - 2456.5px);
+  left: calc(50% - 720px);
+  width: 100%;
+  height: 51.125rem;
+  text-align: center;
+  font-size: 4.125rem;
+  color: #fff;
+  font-family: Montserrat;
+}
+@media screen and (max-width: 750px) {
+  .main-article {
+    font-size: 3.313rem;
+    line-height: 2.5rem;
+  }
+  .heading-1-container {
+    font-size: 2.188rem;
+    line-height: 2.5rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .main-article {
+    font-size: 2.5rem;
+    line-height: 1.875rem;
+  }
+  .heading-1-container {
+    font-size: 1.625rem;
+    line-height: 1.875rem;
+  }
+}

@@ -1,0 +1,44 @@
+.frame-child117 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 11px;
+  background-color: rgba(244, 244, 244, 0.76);
+  border: 1px solid rgba(0, 0, 0, 0.53);
+  box-sizing: border-box;
+  width: 27.875rem;
+  height: 4.375rem;
+  display: none;
+}
+.name,
+.phone-number {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.phone-number {
+  z-index: 2;
+}
+.name-parent {
+  position: absolute;
+  top: 1.188rem;
+  left: 2.125rem;
+  width: 10.25rem;
+  height: 2.063rem;
+}
+.rectangle-parent32 {
+  position: absolute;
+  top: 11.063rem;
+  left: 0;
+  border-radius: 11px;
+  background-color: rgba(244, 244, 244, 0.76);
+  border: 1px solid rgba(0, 0, 0, 0.53);
+  box-sizing: border-box;
+  width: 27.875rem;
+  height: 4.375rem;
+  text-align: left;
+  font-size: 1.375rem;
+  color: rgba(23, 23, 23, 0.6);
+  font-family: Poppins;
+}

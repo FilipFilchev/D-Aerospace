@@ -1,0 +1,238 @@
+.footer-top-border {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 720px);
+  background-color: #010001;
+  width: 100%;
+  height: 100%;
+}
+.cropped-d-aerospace-logo-103x9-icon7 {
+  position: absolute;
+  top: 5.125rem;
+  left: 8.625rem;
+  width: 13.813rem;
+  height: 12.125rem;
+  object-fit: cover;
+}
+.social-media-icons {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.instagram-logo-icon2 {
+  position: absolute;
+  top: 0.344rem;
+  left: 0.456rem;
+  width: 1.825rem;
+  height: 2.05rem;
+  overflow: hidden;
+}
+.social-media-link-items {
+  position: absolute;
+  top: 0;
+  left: 13.45rem;
+  width: 2.738rem;
+  height: 2.738rem;
+}
+.linkedin-logo-icon2 {
+  position: absolute;
+  top: 0.456rem;
+  left: 0.456rem;
+  width: 1.825rem;
+  height: 1.713rem;
+  overflow: hidden;
+}
+.social-media-link-items1 {
+  position: absolute;
+  top: 0;
+  left: 9.006rem;
+  width: 2.738rem;
+  height: 2.738rem;
+}
+.twitter-logo-icon2 {
+  position: absolute;
+  top: 0.569rem;
+  left: 0.344rem;
+  width: 2.05rem;
+  height: 1.594rem;
+  overflow: hidden;
+}
+.social-media-link-items2 {
+  position: absolute;
+  top: 0;
+  left: 4.444rem;
+  width: 2.738rem;
+  height: 2.738rem;
+}
+.facebook-logo-icon2 {
+  position: absolute;
+  top: 0.569rem;
+  left: 0.913rem;
+  width: 0.8rem;
+  height: 1.594rem;
+  overflow: hidden;
+}
+.social-media-link-items3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2.738rem;
+  height: 2.738rem;
+}
+.social-media-links {
+  position: absolute;
+  top: 20.438rem;
+  left: 7.375rem;
+  width: 16.188rem;
+  height: 2.738rem;
+}
+.general4,
+.pages3 {
+  position: absolute;
+  top: 5.5rem;
+  left: 34.625rem;
+  display: inline-block;
+  min-width: 3.688rem;
+}
+.general4 {
+  top: 23.313rem;
+  min-width: 4.563rem;
+}
+.home4 {
+  margin-block-start: 0;
+  margin-block-end: 28.02px;
+}
+.demo3 {
+  margin: 0;
+}
+.get-started-about9,
+.home-pricing-blog-container3 {
+  position: absolute;
+  top: 9.188rem;
+  left: 34.625rem;
+  font-size: 1.019rem;
+  line-height: 48.63%;
+  color: #ddd;
+}
+.get-started-about9 {
+  top: 27rem;
+  line-height: 217.97%;
+  display: inline-block;
+  width: 7.063rem;
+}
+.general5,
+.get-started-about10 {
+  position: absolute;
+  left: 0;
+  display: inline-block;
+}
+.general5 {
+  top: 0;
+  min-width: 4.563rem;
+}
+.get-started-about10 {
+  top: 3.688rem;
+  font-size: 1.019rem;
+  line-height: 217.97%;
+  color: #ddd;
+  width: 7.063rem;
+}
+.footer-links2,
+.footer-links3 {
+  position: absolute;
+  top: 23.313rem;
+  left: 46.125rem;
+  width: 7.063rem;
+  height: 17.188rem;
+}
+.footer-links3 {
+  left: 59.313rem;
+}
+.products8,
+.salvador-azrial3 {
+  position: absolute;
+  left: 46.125rem;
+}
+.products8 {
+  top: 5.5rem;
+  display: inline-block;
+  min-width: 5.375rem;
+}
+.salvador-azrial3 {
+  top: 9.188rem;
+  font-size: 1.019rem;
+  line-height: 48.63%;
+  color: #ddd;
+}
+.contact8 {
+  position: absolute;
+  top: 5.5rem;
+  left: 59.313rem;
+  display: inline-block;
+  min-width: 4.625rem;
+}
+.footer-links4 {
+  top: 9.406rem;
+  display: inline-block;
+  min-width: 7rem;
+}
+.footer-links4,
+.mangcoding123gmailcom3,
+.westheimer-rd-santa3 {
+  position: absolute;
+  left: 61.65rem;
+  font-size: 1.019rem;
+  color: #ddd;
+}
+.mangcoding123gmailcom3 {
+  top: 12.325rem;
+  white-space: nowrap;
+}
+.westheimer-rd-santa3 {
+  top: 15.169rem;
+  line-height: 1.75rem;
+  display: inline-block;
+  width: 15.175rem;
+}
+.footer-links-icon,
+.footer-links-icon1,
+.footer-links5 {
+  position: absolute;
+  left: 59.313rem;
+  width: 1.75rem;
+  height: 1.75rem;
+  overflow: hidden;
+}
+.footer-links-icon {
+  top: 9.188rem;
+  object-fit: contain;
+}
+.footer-links-icon1,
+.footer-links5 {
+  top: 12.031rem;
+}
+.footer-links-icon1 {
+  top: 14.875rem;
+}
+.footersection2 {
+  position: absolute;
+  top: 269.313rem;
+  left: calc(50% - 724px);
+  width: 100%;
+  height: 46.375rem;
+  text-align: left;
+  font-size: 1.313rem;
+  color: #e15b1c;
+  font-family: Roboto;
+}
+@media screen and (max-width: 450px) {
+  .contact8,
+  .general4,
+  .general5,
+  .pages3,
+  .products8 {
+    font-size: 1.063rem;
+  }
+}

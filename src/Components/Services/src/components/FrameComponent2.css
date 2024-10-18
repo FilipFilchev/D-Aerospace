@@ -1,0 +1,48 @@
+.frame-child114 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 30.68px;
+  background-color: #010001;
+  width: 11.169rem;
+  height: 10.069rem;
+  display: none;
+}
+.logosflight-icon2 {
+  position: absolute;
+  top: 1.438rem;
+  left: 3.138rem;
+  width: 4.438rem;
+  height: 3.938rem;
+  overflow: hidden;
+  z-index: 1;
+}
+.km,
+.operating-range {
+  position: absolute;
+  top: 5.394rem;
+  left: 1.763rem;
+  line-height: 187%;
+  font-weight: 800;
+  z-index: 1;
+}
+.km {
+  top: 6.975rem;
+  left: 4.45rem;
+  font-size: 0.775rem;
+  font-weight: 500;
+}
+.rectangle-parent29 {
+  position: absolute;
+  top: 130.063rem;
+  left: 29.625rem;
+  border-radius: 30.68px;
+  background-color: #010001;
+  width: 11.169rem;
+  height: 10.069rem;
+  z-index: 5;
+  text-align: left;
+  font-size: 0.925rem;
+  color: #fff;
+  font-family: Raleway;
+}

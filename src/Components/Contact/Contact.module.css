@@ -1,0 +1,217 @@
+.mainOuter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 15px 60px;
+}
+
+.contactInner {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactInner {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 57px;
+    color: rgba(1, 0, 1, 1);
+    text-align: center;
+}
+
+.loremText {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgba(83, 83, 83, 1);
+    text-align: center;
+    margin-top: 10px;
+    max-width: 853px;
+    width: 100%;
+}
+
+.fieldsArea {
+    display: flex;
+    flex-direction: column;
+}
+
+.nameArea {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nameInput {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 39px;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(23, 23, 23, 0.6);
+    background: rgba(244, 244, 244, 0.76);
+    border: 1px solid rgba(0, 0, 0, 0.53);
+    padding-left: 20px;
+    width: 446px;
+    margin-top: 8px;
+    border-radius: 11px;
+    outline: none;
+}
+
+.messageArea {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 39px;
+    color: rgba(23, 23, 23, 0.6);
+    padding: 15px;
+    background: rgba(244, 244, 244, 0.76);
+    border: 1px solid rgba(0, 0, 0, 0.53);
+    margin-top: 8px;
+    width: 931px;
+    height: 186px;
+    border-radius: 11px;
+    outline: none;
+}
+
+.contactBtn {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 23px;
+    border: 0.83px solid rgba(0, 0, 0, 1);
+    background: rgba(0, 0, 0, 1);
+    width: 189px;
+    height: 57px;
+    border-radius: 45px;
+    color: rgba(255, 255, 255, 1);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+
+.talk{
+    font-weight:500;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1370px) {
+
+    .nameInput {
+        width: 431px;
+    }
+
+
+    .messageArea {
+        width: 900px;
+    }
+
+    .loremText {
+        max-width: 900px;
+    }
+
+
+}
+
+
+
+@media (max-width:991px) {
+
+    .nameInput {
+        width: 300px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .nameArea {
+        gap: 20px;
+    }
+
+    .messageArea {
+        width: 620px;
+        height: 154px;
+    }
+
+    .loremText {
+        max-width: 620px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 21px;
+
+    }
+
+    .contactInner {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    /* .contactBtn {
+        font-size: 12px !important;
+        font-weight: 300 !important;
+        line-height: 23px;
+        width: 150px;
+        height: 50px;
+    } */
+
+}
+
+
+@media (max-width:767px) {
+
+    .nameInput {
+        width: 300px;
+        font-size: 14px;
+        font-weight: 400;
+        padding-left: 10px;
+    }
+
+    .nameArea {
+        gap: 0;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .messageArea {
+        width: 300px;
+        height: 142px;
+        padding: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .loremText {
+        max-width: 620px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 21px;
+
+    }
+
+    .contactInner {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    /* .contactBtn {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 23px;
+        width: 120px;
+        height: 40px;
+    } */
+
+}

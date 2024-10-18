@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.img1 {
+    width: 350px;
+    height: 350px;
+}
+
+.swipArea {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 0;
+}
+
+.TextArea {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 7.5%;
+}
+
+.ourText {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56px;
+    color: rgba(1, 0, 1, 1);
+    line-height: 80px;
+    text-align: left;
+}
+
+.loremText {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    color: rgba(116, 116, 116, 1);
+    max-width: 533px;
+    margin-top: 10px;
+}
+
+@media (max-width:4000px) {
+
+    .salvatore {
+        width: auto;
+        height: 15.7rem;
+        padding-block: 2rem;
+        margin-top: 1.6rem;
+    }
+
+    .azriel{
+        width: auto;
+        height: 17rem;  
+        padding-block: 2rem;
+    }
+
+    .lifter{
+        width: auto;
+        height: 19rem;
+        padding-block: 2rem;
+        margin-top: -23px;
+    }
+
+
+    .swipArea {
+        padding-top: 40px;
+        padding-bottom: 0;
+    }
+
+    .TextArea {
+        padding: 0 15px 0 7.5%;
+    }
+
+    .ourText {
+        font-size: 50px;
+        font-weight: 400;
+        line-height: 60px;
+        
+
+    }
+
+
+    .loremText {
+        font-size: 15px;
+        /* font-weight: 400; */
+        line-height: 20px;
+    }
+
+}
+
+
+
+
+@media (max-width:1400px) {
+
+    .salvatore {
+        width: auto;
+        height: 15.7rem;
+        padding-block: 2rem;
+        margin-top: 1.6rem;
+    }
+
+    .azriel{
+        width: auto;
+        height: 17rem;  
+        padding-block: 2rem;
+    }
+
+    .lifter{
+        width: auto;
+        height: 18.5rem;
+        padding-block: 2rem;
+        margin-top: -23px;
+    }
+
+
+    .swipArea {
+        padding-top: 40px;
+        padding-bottom: 0;
+    }
+
+    .TextArea {
+        padding: 0 15px 0 7.5%;
+    }
+
+    .ourText {
+        font-size: 50px;
+        font-weight: 400;
+        line-height: 60px;
+        
+
+    }
+
+
+    .loremText {
+        font-size: 15px;
+        /* font-weight: 400; */
+        line-height: 20px;
+    }
+
+}
+
+
+@media (max-width:991px) {
+
+    .img1 {
+        width: 200px;
+        height: 200px;
+    }
+
+    .swipArea {
+        padding-top: 40px;
+    }
+
+    .TextArea {
+        padding: 0 15px 0 4.5%;
+    }
+
+    .ourText {
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 45px;
+
+    }
+
+
+    .loremText {
+        max-width: 442px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+
+}
+
+
+@media (max-width:400px) {
+
+
+    .swipArea {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .TextArea {
+        padding: 0 15px 0 4.5%;
+    }
+
+    .ourText {
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 35px;
+
+    }
+
+
+    .loremText {
+        max-width: unset;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+
+}
