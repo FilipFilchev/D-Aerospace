@@ -1,0 +1,19 @@
+# D Aerospace — static site (SvelteKit adapter-static) on Apache/LiteSpeed
+Options -MultiViews
+RewriteEngine On
+
+# Serve prerendered .html for clean/extensionless URLs (e.g. /sectors/defence)
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.+?)/?$ $1.html [L]
+
+# Long-cache hashed assets and fonts
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/css "access plus 1 year"
+  ExpiresByType application/javascript "access plus 1 year"
+  ExpiresByType font/woff2 "access plus 1 year"
+  ExpiresByType image/jpeg "access plus 7 days"
+  ExpiresByType image/png "access plus 7 days"
+  ExpiresByType image/webp "access plus 7 days"
+</IfModule>
