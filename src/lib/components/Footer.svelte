@@ -4,10 +4,10 @@
 
 	const year = 2026;
 	const socials = [
-		{ name: 'Facebook', icon: '/img/social/facebook.svg', href: company.social.facebook },
-		{ name: 'Twitter', icon: '/img/social/twitter.svg', href: company.social.twitter },
+		{ name: 'Instagram', icon: '/img/social/instagram.svg', href: company.social.instagram },
+		{ name: 'YouTube', icon: '/img/social/youtube.svg', href: company.social.youtube },
 		{ name: 'LinkedIn', icon: '/img/social/linkedin.svg', href: company.social.linkedin },
-		{ name: 'Instagram', icon: '/img/social/instagram.svg', href: company.social.instagram }
+		{ name: 'Facebook', icon: '/img/social/facebook.svg', href: company.social.facebook }
 	];
 
 	const explore = [
@@ -35,7 +35,10 @@
 				{#each socials as s}
 					<a
 						href={s.href}
+						target="_blank"
+						rel="noopener noreferrer"
 						aria-label={s.name}
+						title={s.name}
 						class="grid h-10 w-10 place-items-center rounded-full border border-line transition-all hover:-translate-y-0.5 hover:border-accent"
 					>
 						<img src={s.icon} alt="" class="h-5 w-5" />

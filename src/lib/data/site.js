@@ -12,10 +12,10 @@ export const company = {
 	email: 'info@d-aerospace.com',
 	address: 'Sofia, Bulgaria',
 	social: {
-		facebook: '#',
-		twitter: '#',
-		linkedin: '#',
-		instagram: '#'
+		instagram: 'https://www.instagram.com/daerospaceofficial/',
+		youtube: 'https://www.youtube.com/@DAerospace',
+		linkedin: 'https://www.linkedin.com/company/d-aerospace/',
+		facebook: 'https://www.facebook.com/share/18sP2dbT8c/'
 	}
 };
 
@@ -81,6 +81,45 @@ export const products = [
 			{ label: 'Max Payload', value: '25', unit: 'kg' },
 			{ label: 'Water Resistant', value: 'IP', unit: '54' },
 			{ label: 'Operating Range', value: '15', unit: 'km' }
+		],
+		available: false
+	},
+	{
+		// NOTE: capability specs only — send real figures (endurance, range, payload,
+		// cruise speed) and they can be swapped straight into `specs` below.
+		slug: 'vtol',
+		name: 'VTOL',
+		accent: '#e0362c',
+		image: '/img/products/vtol.jpg',
+		scene: true, // full-bleed render rather than a cut-out
+		tagline:
+			'Vertical take-off with fixed-wing endurance — the range of a plane and the landing footprint of a multirotor.',
+		summary:
+			'Our D24 VTOL platform takes off and lands vertically, then transitions to efficient fixed-wing cruise. No runway, no launcher — just far more ground covered per flight, ideal for corridor mapping, long-range survey and patrol.',
+		specs: [
+			{ label: 'Configuration', value: 'VTOL', unit: 'hybrid' },
+			{ label: 'Take-off & Landing', value: 'Vertical', unit: '' },
+			{ label: 'Cruise', value: 'Fixed', unit: 'wing' },
+			{ label: 'Control', value: 'IRIS', unit: 'C2' }
+		],
+		available: false
+	},
+	{
+		// NOTE: capability specs only — send real figures (dock cycle time, IP rating,
+		// footprint, charge time) to replace these.
+		slug: 'drone-in-a-box',
+		name: 'Drone in a Box',
+		accent: '#e0362c',
+		image: '/img/products/drone-in-a-box.png',
+		tagline:
+			'A self-contained docking station — the aircraft launches, flies its mission and returns to charge, with nobody on site.',
+		summary:
+			'The D24 drone-in-a-box turns a site into a permanently monitored one. The weather-sealed dock opens on command or on schedule, releases the aircraft, and recharges it on return — so inspection and security patrols run autonomously, day after day, directed entirely from IRIS C2.',
+		specs: [
+			{ label: 'Operation', value: 'Fully', unit: 'autonomous' },
+			{ label: 'Housing', value: 'Weather', unit: 'sealed' },
+			{ label: 'Charging', value: 'Auto', unit: 'dock' },
+			{ label: 'Control', value: 'IRIS', unit: 'C2' }
 		],
 		available: false
 	}

@@ -53,18 +53,30 @@
 
 			<!-- image -->
 			<div class={flip ? 'lg:order-1' : ''} use:reveal={{ delay: 120 }}>
-				<div class="relative grid place-items-center">
-					<div
-						class="absolute h-64 w-64 rounded-full blur-3xl sm:h-80 sm:w-80"
-						style="background: color-mix(in srgb, {product.accent} 30%, transparent);"
-					></div>
-					<img
-						src={product.image}
-						alt="{product.name} drone"
-						class="relative z-10 w-full max-w-lg drop-shadow-2xl"
-						loading="lazy"
-					/>
-				</div>
+				{#if product.scene}
+					<!-- full-bleed render (has its own scene/background) -->
+					<div class="overflow-hidden rounded-[22px] border border-line shadow-2xl">
+						<img
+							src={product.image}
+							alt="{product.name} in its operating environment"
+							class="w-full object-cover"
+							loading="lazy"
+						/>
+					</div>
+				{:else}
+					<div class="relative grid place-items-center">
+						<div
+							class="absolute h-64 w-64 rounded-full blur-3xl sm:h-80 sm:w-80"
+							style="background: color-mix(in srgb, {product.accent} 30%, transparent);"
+						></div>
+						<img
+							src={product.image}
+							alt="{product.name} drone"
+							class="relative z-10 w-full max-w-lg drop-shadow-2xl"
+							loading="lazy"
+						/>
+					</div>
+				{/if}
 			</div>
 		</div>
 
