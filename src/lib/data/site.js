@@ -87,15 +87,15 @@ export const products = [
 	{
 		// NOTE: capability specs only — send real figures (endurance, range, payload,
 		// cruise speed) and they can be swapped straight into `specs` below.
-		slug: 'vtol',
-		name: 'VTOL',
+		slug: 'nova-vtol',
+		name: 'NOVA VTOL',
 		accent: '#e0362c',
 		image: '/img/products/vtol.jpg',
 		scene: true, // full-bleed render rather than a cut-out
 		tagline:
 			'Vertical take-off with fixed-wing endurance — the range of a plane and the landing footprint of a multirotor.',
 		summary:
-			'Our D24 VTOL platform takes off and lands vertically, then transitions to efficient fixed-wing cruise. No runway, no launcher — just far more ground covered per flight, ideal for corridor mapping, long-range survey and patrol.',
+			'NOVA takes off and lands vertically, then transitions to efficient fixed-wing cruise. No runway, no launcher — just far more ground covered per flight, ideal for corridor mapping, long-range survey and patrol.',
 		specs: [
 			{ label: 'Configuration', value: 'VTOL', unit: 'hybrid' },
 			{ label: 'Take-off & Landing', value: 'Vertical', unit: '' },
@@ -107,14 +107,14 @@ export const products = [
 	{
 		// NOTE: capability specs only — send real figures (dock cycle time, IP rating,
 		// footprint, charge time) to replace these.
-		slug: 'drone-in-a-box',
-		name: 'Drone in a Box',
+		slug: 'b24',
+		name: 'B24',
 		accent: '#e0362c',
 		image: '/img/products/drone-in-a-box.png',
 		tagline:
-			'A self-contained docking station — the aircraft launches, flies its mission and returns to charge, with nobody on site.',
+			'Drone in a box — a self-contained docking station. The aircraft launches, flies its mission and returns to charge, with nobody on site.',
 		summary:
-			'The D24 drone-in-a-box turns a site into a permanently monitored one. The weather-sealed dock opens on command or on schedule, releases the aircraft, and recharges it on return — so inspection and security patrols run autonomously, day after day, directed entirely from IRIS C2.',
+			'B24 turns a site into a permanently monitored one. The weather-sealed dock opens on command or on schedule, releases the aircraft, and recharges it on return — so inspection and security patrols run autonomously, day after day, directed entirely from IRIS C2.',
 		specs: [
 			{ label: 'Operation', value: 'Fully', unit: 'autonomous' },
 			{ label: 'Housing', value: 'Weather', unit: 'sealed' },
