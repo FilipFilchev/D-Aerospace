@@ -8,7 +8,19 @@
 		payload: 'M4 8h16l-1.5 12H5.5L4 8Zm4 0V6a4 4 0 0 1 8 0v2',
 		gauge: 'M12 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm0-9a9 9 0 0 0-9 9 9 9 0 0 0 2 5.7M12 5a9 9 0 0 1 9 9 9 9 0 0 1-2 5.7M12 5V3',
 		chip: 'M9 3v3M15 3v3M9 18v3M15 18v3M3 9h3M3 15h3M18 9h3M18 15h3M6 6h12v12H6z',
-		shield: 'M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6l8-3Z'
+		shield: 'M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6l8-3Z',
+		// fixed-wing cruise
+		plane: 'M10.2 15.5 3 13.2l1-1.7 4 .7 3-3.3-7.2-3.4 1.5-1.6 9.3 1.6 3.6-3.5a2 2 0 1 1 2.8 2.8l-3.5 3.6 1.6 9.3-1.6 1.5-3.4-7.2-3.3 3 .7 4-1.7 1-2.3-7.2',
+		// vertical take-off / landing
+		vertical: 'M12 20V4m0 0L7.5 8.5M12 4l4.5 4.5M5 22h14',
+		// autonomous operation
+		auto: 'M9 3h6M12 3v3M6.5 6h11A2.5 2.5 0 0 1 20 8.5v8a2.5 2.5 0 0 1-2.5 2.5h-11A2.5 2.5 0 0 1 4 16.5v-8A2.5 2.5 0 0 1 6.5 6ZM9.5 11v2M14.5 11v2M9 16h6',
+		// weather sealed
+		weather: 'M7.5 18a4.5 4.5 0 0 1-.6-8.96 6 6 0 0 1 11.6 1.72A3.75 3.75 0 0 1 17.5 18h-10ZM9 21l.7-1.4M12 21.5l.7-1.4M15 21l.7-1.4',
+		// auto charging dock
+		charge: 'M13 3 6 13h5l-1 8 7-10h-5l1-8ZM4 20h4M16 20h4',
+		// control interface / screen
+		screen: 'M4 5h16a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1ZM9 21h6M12 17v4M7.5 9.5h4M7.5 12.5h7'
 	};
 </script>
 

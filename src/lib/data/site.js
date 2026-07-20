@@ -97,10 +97,10 @@ export const products = [
 		summary:
 			'NOVA takes off and lands vertically, then transitions to efficient fixed-wing cruise. No runway, no launcher — just far more ground covered per flight, ideal for corridor mapping, long-range survey and patrol.',
 		specs: [
-			{ label: 'Configuration', value: 'VTOL', unit: 'hybrid' },
-			{ label: 'Take-off & Landing', value: 'Vertical', unit: '' },
-			{ label: 'Cruise', value: 'Fixed', unit: 'wing' },
-			{ label: 'Control', value: 'IRIS', unit: 'C2' }
+			{ label: 'Max Flight Time', value: '4', unit: 'h', icon: 'time' },
+			{ label: 'Operating Range', value: '250', unit: 'km', icon: 'range' },
+			{ label: 'Take-off & Landing', value: 'Vertical', unit: '', icon: 'vertical' },
+			{ label: 'Cruise', value: 'Fixed', unit: 'wing', icon: 'plane' }
 		],
 		available: false
 	},
@@ -110,16 +110,17 @@ export const products = [
 		slug: 'b24',
 		name: 'B24',
 		accent: '#e0362c',
-		image: '/img/products/drone-in-a-box.png',
+		image: '/img/products/b24.jpg',
+		scene: true, // render ships with its own styled backdrop
 		tagline:
 			'Drone in a box — a self-contained docking station. The aircraft launches, flies its mission and returns to charge, with nobody on site.',
 		summary:
 			'B24 turns a site into a permanently monitored one. The weather-sealed dock opens on command or on schedule, releases the aircraft, and recharges it on return — so inspection and security patrols run autonomously, day after day, directed entirely from IRIS C2.',
 		specs: [
-			{ label: 'Operation', value: 'Fully', unit: 'autonomous' },
-			{ label: 'Housing', value: 'Weather', unit: 'sealed' },
-			{ label: 'Charging', value: 'Auto', unit: 'dock' },
-			{ label: 'Control', value: 'IRIS', unit: 'C2' }
+			{ label: 'Operation', value: 'Fully', unit: 'autonomous', icon: 'auto' },
+			{ label: 'Housing', value: 'Weather', unit: 'sealed', icon: 'weather' },
+			{ label: 'Charging', value: 'Auto', unit: 'dock', icon: 'charge' },
+			{ label: 'Control', value: 'IRIS', unit: 'C2', icon: 'screen' }
 		],
 		available: false
 	}

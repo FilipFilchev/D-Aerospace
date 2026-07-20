@@ -32,7 +32,7 @@
 
 				<div class="mt-8 grid max-w-md grid-cols-2 gap-3">
 					{#each product.specs as s}
-						<SpecBadge label={s.label} value={s.value} unit={s.unit} icon={iconFor(s.label)} />
+						<SpecBadge label={s.label} value={s.value} unit={s.unit} icon={s.icon ?? iconFor(s.label)} />
 					{/each}
 				</div>
 
